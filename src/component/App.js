@@ -18,6 +18,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="component-app">
+        <h2 style={{color:'red'}}>sda<br/>asd</h2>
+        <h2 style={{color:'red'}}>sebentar</h2>
         <Display value={this.state.next || this.state.total || "0"} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
